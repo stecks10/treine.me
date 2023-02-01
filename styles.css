@@ -1,11 +1,19 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 nav {
@@ -108,4 +116,11 @@ footer {
 
 footer a {
   font-weight: bold;
+  color: #89c5cc;
+}
+
+.balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
