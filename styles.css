@@ -77,8 +77,25 @@ p {
 }
 
 button {
+  color: white;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
+
+  background: #69b99d;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3e6a5b;
 }
 
 footer {
