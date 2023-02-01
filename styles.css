@@ -36,8 +36,13 @@ a {
   color: #1f1534;
 }
 
+ul li a {
+  opacity: 0.5;
+}
+
 ul li a:hover {
   font-weight: bold;
+  opacity: 1;
 }
 
 h1,
